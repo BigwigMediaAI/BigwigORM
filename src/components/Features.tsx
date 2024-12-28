@@ -6,6 +6,7 @@ import streamline from "../assets/Bigwigmedia (5) (1).png"
 import automate from "../assets/automate.png"
 import track from "../assets/track.png"
 import social1 from "../assets/social.png"
+import language from "../assets/language.png"
 
 function Features() {
   const featureData = [
@@ -80,7 +81,7 @@ function Features() {
     {
       title: "Read & Reply to your reviews in any language",
       description: "Effortlessly manage global reviews. View feedback in its original language and craft responses that resonate, translated accurately into your customer's preferred language.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
+      imageUrl:language,
       id: "feature11"
     },
   ];

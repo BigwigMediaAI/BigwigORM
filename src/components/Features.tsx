@@ -4,6 +4,8 @@ import anaylze from "../assets/Analyze Review Sentiment.png"
 import craft from "../assets/Craft Ideal Review.png"
 import streamline from "../assets/Bigwigmedia (5) (1).png"
 import automate from "../assets/automate.png"
+import track from "../assets/track.png"
+import social1 from "../assets/social.png"
 
 function Features() {
   const featureData = [
@@ -60,19 +62,19 @@ function Features() {
       title: "Track and Analyze Reputation Trends",
       description:
         "Monitor review counts and reputation scores over time and across various locations. Share detailed, customized reports with your local teams.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
+      imageUrl: track,
       id: "feature8"
     },
     {
       title: "Share & Publish 5* Reviews across all Social Media Channels",
       description: "Amplify your success stories effortlessly. Highlight your best reviews by sharing them directly on social media platforms. Let positive customer feedback build trust and drive engagement.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
+      imageUrl:social1,
       id: "feature9"
     },
     {
       title: "Share & Publish 5* Reviews on your website as live testimonials",
       description: "Turn glowing reviews into real-time endorsements. Showcase 5-star feedback directly on your website as live testimonials, creating an authentic and persuasive customer experience.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/reviews-reports-v1.png",
+      imageUrl: social1,
       id: "feature10"
     },
     {

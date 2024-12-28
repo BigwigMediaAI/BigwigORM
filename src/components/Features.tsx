@@ -1,4 +1,9 @@
 import { motion } from "framer-motion";
+import alert from "../assets/Instant Review Alerts.jpg";
+import anaylze from "../assets/Analyze Review Sentiment.png"
+import craft from "../assets/Craft Ideal Review.png"
+import streamline from "../assets/Bigwigmedia (5) (1).png"
+import automate from "../assets/automate.png"
 
 function Features() {
   const featureData = [
@@ -6,21 +11,21 @@ function Features() {
       title: "Stay Updated with Instant Review Alerts",
       description:
         "Never miss an important review. Receive instant notifications for every new review and respond within seconds from your desktop or mobile app.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-alerts-v2.png",
+      imageUrl:alert,
       id: "feature4"
     },
     {
       title: "Analyze Review Sentiment with AI",
       description:
         "Quickly grasp what's working and what needs improvement by summarizing the sentiment of numerous reviews in a single click. Generate location-specific reports and share them effortlessly.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-summary.png",
+      imageUrl:anaylze,
       id: "feature1"
     },
     {
       title: "Craft Ideal Review Responses with AI",
       description:
         "Leverage AI to create personalized review replies at scale. Generate custom responses or rephrase existing ones to maintain a consistent, empathetic tone that aligns with your brand. Edit grammar, tone, and length seamlessly.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/genai-responses.png",
+      imageUrl:craft,
       id: "feature2"
     },
     {
@@ -41,14 +46,14 @@ function Features() {
       title: "Streamline Responses with Pre-Written Templates",
       description:
         "Engage with customers efficiently using customizable review response templates. Save time while ensuring every customer feels heard.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/response-templates-v1.png",
+      imageUrl: streamline,
       id: "feature6"
     },
     {
       title: "Automate Your Review Responses",
       description:
         "Set up automated replies for specific review sources, star ratings, or locations. Keep your customers engaged effortlessly.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/response-automation-v1.png",
+      imageUrl: automate,
       id: "feature7"
     },
     {

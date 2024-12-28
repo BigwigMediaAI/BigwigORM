@@ -21,13 +21,20 @@ const Team: React.FC = () => {
           <p className="text-gray-600 md:text-center text-justify">
           Make way for Bigwig Media, the superhero of the digital marketing world with a black belt in AI tech! Our mission? To catapult businesses like yours straight into the glitzy realm of online success. 
           </p>
-          <h2 className="font-bold text-gray-700 mt-6 text-center text-2xl">About Bigwig ORM</h2>
-          <h2 className="text-gray-600 mt-4 md:text-center text-justify">
-          We don't just talk a big game -- we deliver. Whether it's magnetizing leads like bees to honey, bolstering your brand till it's as big as you wish, fanning the flames of creativity, conjuring mind-blowing content, or playing king of the hill one search engine at a time—we've got the magic sauce.
-          </h2>
-          <h2 className="text-gray-600 mt-4 md:text-center text-justify">
-          When it comes to teamwork, we're like ants at a picnic. With over 70 committed professionals in our corner, we hustle and haggle - all for your success. So, strap on your seatbelt, and let Bigwig Media take you on a thrilling ride to the top!          </h2>
-        </div>
+          <h2 className="font-bold text-gray-700 mt-6 text-center text-2xl">About Bigwig Online Reputation Management</h2>
+<h2 className="text-gray-600 text-justify md:text-center mt-4">
+  Protect and elevate your brand’s image effortlessly with Bigwig ORM, your AI-powered solution for mastering online reputation. Monitor, manage, and respond to what the world is saying about your business with unmatched speed and precision. Stay in control of your narrative and turn challenges into opportunities.
+</h2>
+<h2 className="text-gray-600 text-justify md:text-center mt-4">
+  From tracking customer feedback to handling reviews and resolving complaints, Bigwig ORM ensures that your brand stays a step ahead. Our intelligent tools analyze sentiments, provide actionable insights, and help you craft responses that leave a lasting impression. Whether you're an individual influencer or a global enterprise, we’ve got you covered.
+</h2>
+<h2 className="text-gray-600 text-justify md:text-center mt-4">
+  We’ve got your back! With a dedicated team of 40+ ORM experts working tirelessly to maintain your online presence, Bigwig ORM helps you build trust, enhance customer loyalty, and maintain a shining reputation across all platforms. Let us turn every online mention into an opportunity for growth.
+</h2>
+<h2 className="text-gray-600 text-center mt-4 font-bold">
+  Bigwig ORM: Your trusted partner in protecting and amplifying your brand's online presence.
+</h2>
+</div>
       </div>
     </section>
     </>

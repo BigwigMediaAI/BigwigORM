@@ -7,6 +7,7 @@ import automate from "../assets/automate.png"
 import track from "../assets/track.png"
 import social1 from "../assets/social.png"
 import language from "../assets/language.png"
+import translate from "../assets/Translate Reviews and Replies Effortlessly.png"
 
 function Features() {
   const featureData = [
@@ -35,7 +36,7 @@ function Features() {
       title: "Translate Reviews and Replies Effortlessly",
       description:
         "Break language barriers effortlessly. Translate reviews into English and craft responses that are automatically translated into your customer's language, eliminating the need for manual translation.",
-      imageUrl: "https://cdn2.birdeye.com/version2/v3/pages/2024/products/reviews/management/v1/review-translation.png",
+      imageUrl:translate,
       id: "feature3"
     },
     {

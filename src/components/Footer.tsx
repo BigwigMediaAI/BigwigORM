@@ -8,10 +8,13 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
-  const handleScrollToSection = (sectionId: any) => {
-    const section = document.getElementById(sectionId);
+  const handleScrollToSection = (id: any) => {
+    const section = document.getElementById(id);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      const yOffset = -70; // Adjust this value for the desired offset
+      const yPosition =
+        section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: yPosition, behavior: "smooth" });
     }
   };
   return (
@@ -65,7 +68,7 @@ function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => handleScrollToSection("Blog")}
+                  onClick={() => handleScrollToSection("blog")}
                   className="text-gray-400 hover:text-white"
                 >
                   Blogs

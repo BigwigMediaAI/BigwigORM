@@ -32,7 +32,6 @@ const TestimonialSection = () => {
       image: "https://randomuser.me/api/portraits/men/8.jpg", // Image 4
     },
   ];
-  
 
   // Slider settings
   const settings = {
@@ -44,13 +43,13 @@ const TestimonialSection = () => {
     autoplay: true,
     autoplaySpeed: 4000,
     arrows: false,
-    onHover:false
+    onHover: false,
   };
 
   return (
     <section id="case" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-semibold text-gray-900 mb-8">
+        <h2 className="text-5xl font-semibold text-gray-900 mb-8">
           What Our Users Are Saying
         </h2>
 
@@ -68,7 +67,9 @@ const TestimonialSection = () => {
                 "{testimonial.text}"
               </p>
               <div>
-                <p className="font-semibold text-gray-800">{testimonial.name}</p>
+                <p className="font-semibold text-gray-800">
+                  {testimonial.name}
+                </p>
                 <p className="text-gray-500">
                   {testimonial.role}, {testimonial.company}
                 </p>

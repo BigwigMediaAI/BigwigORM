@@ -2,7 +2,7 @@ import about from "../assets/ABOUT (1).png";
 
 const AboutUs = () => {
   return (
-    <section id="about" className=" px-4 py-6">
+    <section id="about" className=" px-4">
       <h2 className="text-5xl font-semibold text-white mb-10 text-center">
         About Us
       </h2>

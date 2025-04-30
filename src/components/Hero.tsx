@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="md:w-11/12 mx-auto relative  flex flex-col lg:flex-row items-center justify-between  py-12 px-5  mt-16"
+      className="md:w-11/12 mx-auto relative  flex flex-col lg:flex-row items-center justify-between  pt-12 px-5 mt-16 mb-10"
     >
       {/* Left Section */}
       <div className="md:w-1/2 space-y-6 text-center md:text-left">

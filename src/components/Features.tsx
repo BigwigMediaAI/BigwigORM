@@ -97,7 +97,7 @@ function Features() {
   ];
 
   return (
-    <div id="features" className="py-16 px-8">
+    <div id="features" className="mb-10 px-8">
       <h2 className="text-5xl font-semibold text-white text-center mb-10 tracking-tight">
         Our Services
       </h2>
@@ -135,7 +135,7 @@ function Features() {
               <img
                 src={feature.imageUrl}
                 alt={feature.title}
-                className="w-full object-cover rounded-lg"
+                className="w-full md:max-w-lg object-cover rounded-lg"
               />
             </div>
           </div>
